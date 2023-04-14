@@ -8,6 +8,7 @@ import { HomeComponent } from './views/home/home.component';
 import { AboutComponent } from './views/about/about.component';
 import { SeniorDesignOneComponent } from './views/senior-design-one/senior-design-one.component';
 import { SeniorDesignTwoComponent } from './views/senior-design-two/senior-design-two.component';
+import { Sd2DocumentationComponent } from './components/sd2-documentation/sd2-documentation.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SeniorDesignTwoComponent } from './views/senior-design-two/senior-desig
     HomeComponent,
     AboutComponent,
     SeniorDesignOneComponent,
-    SeniorDesignTwoComponent
+    SeniorDesignTwoComponent,
+    Sd2DocumentationComponent
   ],
   imports: [
     BrowserModule,
