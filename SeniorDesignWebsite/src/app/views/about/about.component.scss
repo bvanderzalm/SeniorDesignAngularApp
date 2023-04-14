@@ -17,3 +17,7 @@ p {
     padding: 0.5rem;
     width: 50%;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
